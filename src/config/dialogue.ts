@@ -1,0 +1,82 @@
+import { NAMES } from './names';
+
+export const DIALOGUE = {
+  prologue: {
+    emailSubject: "Closed.",
+    emailBody: `Hi ${NAMES.player}, just confirming the deal is done. Congrats to you and the team. Enjoy your time off. You earned it.`,
+    teamChat: ["CLOSED!!!! 🎉🎉🎉", "LFG!!!", "Legendary exit", "We did it", "🚀🚀🚀", "Drinks tonight?"],
+    packPrompt: "Pack your bag. Click each item to add it.",
+    oooPrompt: "Set your out-of-office reply before you go.",
+    doorPrompt: "Head out. The world is waiting.",
+  },
+  ch1: {
+    boarding: "Now boarding: JFK to ICN to UBN. Please have your boarding pass ready.",
+    turbulence: "Hold your coffee steady.",
+    airplaneMode: "First time in four years.",
+    arrival: `Driver: \"${NAMES.player}?\"`,
+    baatarGreeting: `${NAMES.father}: \"Sain baina uu! Welcome, welcome.\"`,
+    gerEntry: [
+      "Step OVER the threshold.",
+      "Move clockwise as you enter.",
+      "Accept the tea with your right hand, left supporting.",
+    ],
+  },
+  ch2: {
+    baatarIntro: `${NAMES.father} mimes carrying buckets and points to the river. One word: \"Daily.\"`,
+    day1Fail: `${NAMES.father} laughs warmly and demonstrates: slow, smooth, patient.`,
+    horseStance: "Horse stance. Keep steady.",
+    day3Win: `${NAMES.father}: \"Sain! Good!\"`,
+    saraaHelps: `${NAMES.toddler} toddles beside you, carrying a tiny cup. She pours it into the barrel.`,
+  },
+  ch3: {
+    intro: `${NAMES.yak} broke her tether. ${NAMES.father} is busy. You volunteer.`,
+    approachHint: "Crouch-walk from the side. No sudden moves.",
+    tugHint: "Hold to pull. Release when she lunges.",
+    gateHint: "Pulling harder won't work. Try kindness.",
+    saltWin: `${NAMES.father}: \"Sain!\" He arrived just in time to see ${NAMES.yak} walk in.`,
+  },
+  ch4: {
+    intro: `${NAMES.father}: \"Your ger. We build together.\"`,
+    doorChoice: "Which door would you like?",
+    complete: `${NAMES.father}: \"Your home on the steppe. Sleep well.\"`,
+  },
+  ch5: {
+    intro: `${NAMES.mother} brings dish after dish. Eat everything. Well, try to.`,
+    teaWarn: "Salty milk tea. Keep a straight face.",
+    aaruulWarn: `${NAMES.son} eats one in two seconds and grins.`,
+    buuzHint: "Bite a small hole and sip the broth first.",
+    noodleHint: `Feed ${NAMES.buddy} a forkful. He leans in.`,
+    airaqHint: "Small sip. Then hand it back politely.",
+    done: `${NAMES.mother}: \"Amttai? Delicious?\" You nod.`,
+  },
+  ch6: {
+    intro: `${NAMES.son}: \"Cards. You play?\" ${NAMES.buddy}: \"Oh I am VERY good at cards.\"`,
+    buddyBad: ["I meant to do that.", "Classic strategy.", "Bold play by me.", "This is all going according to plan."],
+    saraaFlips: `${NAMES.toddler} wanders over and flips someone's card face up. Everyone pretends not to see.`,
+    win: `${NAMES.son}: \"Again! Tomorrow!\"`,
+    lose: `${NAMES.son}: \"Good game.\" He is already shuffling.`,
+  },
+  ch7: {
+    intro: "The kids ambush you in the rocky field. Temuulen grins. Game on.",
+    round1: "Tag Temuulen and Anu. 90 seconds. Go!",
+    round2: "Now they chase you. Survive 60 seconds.",
+    round3: "Just Saraa. How hard can it be?",
+    saraaWin: `${NAMES.toddler} tags you and squeals with joy.`,
+  },
+  ch8: {
+    intro: `${NAMES.daughter}: \"Teach me English?\"`,
+    repeatHint: "Hold E on each beat.",
+    cashGive: `The dollar bill flutters into their hands. They hold it up to the light.`,
+    ledger: "Capital deployed: $14. Portfolio: 3 future founders. Best ROI of your career.",
+    reverseLesson: "Now they teach you.",
+  },
+  finale: {
+    oneBar: "One bar of signal. The phone buzzes awake.",
+    notifications: "4,000+ notifications. Still there. Still fine.",
+    choice1: "Open the laptop",
+    choice2: "Put the phone away",
+    laptopPeek: "One email. You smile. You close it.",
+    caption: "Meaning of life",
+    deelGift: `${NAMES.father} holds out a blue deel. Your sleeves change.`,
+  },
+};
